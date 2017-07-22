@@ -2,7 +2,7 @@ High leverl summary for multi label, multi class classifier
 -----------------------------------------------------------
 
 1 - Data preprocessing and Data wrangling:
- - Use pivoting to convert multi-class, multi-label data into multi-label, binary class data
+ - Use pivoting to convert multi-class, multi-label data into multi-label, binary class data. this can be done using MultiLabelBinarizer(it is also a One-hot encoder).
 
 2 - Data split - Use train-split / k-fold crsoss validation / stratified(balanced) shuffle split:
  - Have single training/testing dataset.
